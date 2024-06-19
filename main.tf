@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "eu-central-1"
+}
+
 data "aws_region" "current" {}
 
 data "aws_canonical_user_id" "this" {
